@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section {
+  padding: 40px 0;
+}
+header {
+  padding: 20px 0;
+  background-color: #fbfbfb;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  color: #757575;
+}
+.main_btn {
+  background: #e48d8b;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.main_btn a {
+  color: #fff;
+  font-size: 15px;
+}
+.main_title {
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 59px;
+  color: #0f0f0f;
+}
+.main_prg {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #464646;
+  margin: 10px 0;
+}
+.old_price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-decoration-line: line-through;
+  color: #757575;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.btn {
+  background: #ededed;
+  padding: 10px 20px;
+  border: none;
+  color: #757575;
+  cursor: pointer;
+}
+.info_box {
+  padding-right: 50px;
+}
+.blue_icon i {
+  font-size: 23px;
+  color: #017cff;
+}
+.red_icon i {
+  color: #e48d8b;
+}
+.info_box h3 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  color: #0f0f0f;
+  margin-top: 10px;
+}
+#numbers {
+  text-align: center;
+  background-color: #017cff;
+  color: #fff;
+  padding: 70px 50px;
+  position: relative;
+  padding-bottom: 100px;
+}
+.red_box {
+  width: 50px;
+  height: 50px;
+  background-color: #e48d8b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.blue_box {
+  width: 50px;
+  height: 50px;
+  background-color: #87cdff;
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+}
+#numbers h2 {
+  margin-bottom: 30px;
+}
+#numbers h3 {
+  font-size: 50px;
+}
+#numbers p {
+  font-size: 14px;
+}
+#dropdown {
+  text-align: center;
+}
+.drop_item {
+  width: 370px;
+  background-color: #ededed;
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  color: #464646;
+  justify-content: space-between;
+}
+.drop_item p {
+  font-size: 14px;
+}
+.drop_item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #464646;
+}
+.course_box {
+  margin-top: 40px;
+  padding-right: 20px;
+}
+.course_box p {
+  margin-top: 20px;
+}
+.dark_blue_bg {
+  background-color: #194677;
+  text-align: center;
+  color: #fff;
+}
+.dark_blue_bg i {
+  font-size: 50px;
+}
+.dark_blue_bg p {
+  margin: 30px 0;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.dark_blue_bg em span {
+  color: #e48d8b;
+}
+.dark_blue_bg h6 {
+  margin-top: 10px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.red_bg {
+  background-color: #e48d8b;
+  text-align: center;
+}
+.red_bg h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+}
+.flex_center {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.pricing_card {
+  background-color: #fff;
+  width: 300px;
+  padding: 40px;
+}
+.pricing_card > i {
+  color: #b1b1b1;
+}
+.pricing_card i {
+  font-size: 18px;
+}
+.pricing_title {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  color: #464646;
+}
+
+.pricing_price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #757575;
+  margin: 10px 0;
+}
+.pricing_price span {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #017cff;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.price_btn {
+  background: #017cff;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: bold;
+  margin: 13px 0;
+}
+.pricing_card ul {
+  list-style-type: none;
+}
+.pricing_card ul li {
+  display: flex;
+  color: #464646;
+  font-size: 13px;
+  margin: 5px 0;
+}
+.pricing_card ul li i {
+  color: #017cff;
+}
+.red_bg h2 {
+  color: #fff;
+}
